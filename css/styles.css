@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 80px;
+    /* -webkit-box-shadow: 0px 6px 7px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow:    0px 6px 7px 0px rgba(0, 0, 0, 0.15);
+    box-shadow:         0px 6px 7px 0px rgba(0, 0, 0, 0.15); */
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    background-color: transparent !important;
+    
+}
+
+.whitetext{
+    color: red;
+}
+
+
+
+.banner{
+    /* width: 100%; */
+    height: 800px;
+    padding: 0px;
+    /* background-color: salmon; */
+    background-image: url(../images/banner.jpg);
+    color: white;
+    
+}
+
+.one{
+    background-image: url(../images/couple1.jpg);
+    height: 400px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain
+    
+}
+
+.two{
+    background-image: url(../images/couple2.jpg);
+    height: 300px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain
+    
+}
+.three{
+    background-image: url(../images/couple3.jpg);
+    height: 300px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain
+    
+}
+.four{
+    background-image: url(../images/couple4.jpg);
+    height: 300px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain
+    
+}
+
+.imghappy{
+    display: inline-block;
+    background-color:rgba(255, 255, 255, 0.904);
+    height: 300px;
+    color: white;
+    text-align: end;
+    padding: 5px;
+    padding-bottom: 4px;
+
+}
+
+.pinked{
+    border: 2px   solid pink;
+    padding: 3%;
+    /* margin: 3%; */
+}
+
+
+
+.says{
+    background-image: url(../images/testimonials.jpg);
+    background-size: cover;
+    height: 550px;
+    background-position: center;
+}
+
+.overlay{
+    background-color:rgba(45, 45, 56, 0.4);
+    /* width: 100%; */
+    padding-top: 100px;
+    padding: 75px;
+    height: 100%;
+    color: white;
+
+}
+
+.overlay .overlaytext{
+    margin: auto;
+}
+
+.pink{
+    background-color: rgb(245, 119, 140);
+    padding: 10%;
+    height: 510px;
+    width: 100%;
+}
+
+.row .pink{
+    background-color: rgb(245, 119, 140);
+    padding: 10%;
+    height: 210px;
+    width: 100%;
+}
+
+.whitebox{
+    background-color: white;
+    display: inline-block;
+    color: black;
+    padding: auto;
+    margin: 3%;
+    width: 220px;
+    height: 220px;
+    text-align: center;
+    align-content: center;
+    
+}
+
+.whitebox .inbox{
+    background-color: black;
+    color: rgb(245, 119, 140);
+    border-radius: 50%;
+    height: 50px;
+    width: 5px;
+    text-align: center;
+
+}
+
+.foot{
+    background-image: url(../images/b3.jpg);
+    height: 300px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover
+    
+}
